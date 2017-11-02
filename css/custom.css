@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {
+    position: relative;
+}
+.audio {
+   height:430px;
+   width: 100%;
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+    opacity: 0.9;
+
+/*-webkit-clip-path: inset(0 0 50% 0);
+clip-path: inset(0 0 50% 0);*/
+}
+
+.images {
+ height:430px;
+   width: 100%;
+    background-color: green;
+    padding: 0;
+    margin: 0;
+    opacity: 0.9;
+
+/*-webkit-clip-path: inset(50% 0 0 0);
+clip-path: inset(50% 0 0 0);*/
+}
+
+.container-fluid {
+    padding: 0;
+    position: relative;
+}
+
+h1 {
+    font-size: 8em;
+    margin: 0;
+    color: white;
+/* Centering vertically */ 
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+/* Centering horizontally */ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+    height: 100px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    /*top: 48%;
+    left: 40%;*/
+}
