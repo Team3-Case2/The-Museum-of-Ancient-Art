@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 body {
@@ -158,3 +159,77 @@ ul li a:hover {
 }
 
 
+=======
+@charset "utf-8";
+body {
+	position: relative;
+}
+.wrapper {
+	overflow-x: hidden;
+}
+.audio {
+	height: 430px;
+	width: 100%;
+	background-color: blue;
+	padding: 0;
+	margin: 0;
+	opacity: 0.9;
+}
+.audio h1 {
+	-webkit-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;  
+    -moz-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+.audio:hover h1{
+	color: black;
+}
+.filters {
+	width: 100%;
+	background-color: green;
+	padding: 0;
+	margin: 0;
+	opacity: 0.9;/*-webkit-clip-path: inset(50% 0 0 0);
+clip-path: inset(50% 0 0 0);*/
+}
+.filters h1 {
+-webkit-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;  
+    -moz-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+.filters:hover h1{
+	color: black;}
+
+.container-fluid {
+	padding: 0;
+	position: relative;
+}
+.audio {
+	height: 50vh;
+}
+.filters {
+	height: 50vh;
+}
+
+h1 {
+	font-size: 8em;
+	margin: 0;
+	color: white;
+	/* Centering vertically */ 
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	/* Centering horizontally */ 
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#landing-logo {
+	height: 100px;
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+>>>>>>> d54f27ee0b99ba3397773b24baf9cb011baa1b17
