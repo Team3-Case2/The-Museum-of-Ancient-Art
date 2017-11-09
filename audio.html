@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>The Museum of Ancient Art</title>
+<title>Audio | Ancient Future</title>
 <meta name="description" content="The Museum of Ancient Art in Aarhus, Denmark is museum dedicated to the ancient art and cultural history of the mediterranean countries, in particular Ancient Greece, Etruscan civilization and Ancient Rome.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="img/au_segl-inv.svg">
@@ -12,45 +12,129 @@
 <meta property="og:url" content="http://mackonis.dk" />
 <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
+<link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
 <body>
-<!--[if lte IE 9]>
-           <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-       <![endif]--> 
-<div class="wrapper"> <a href="index.html"><img class="logo" src="img/logo.jpg" alt="Logo"></a>
-  
-  <header class="bgimage">
-  <div class="container">
-	<h1>The Museum of Ancient Art in Aarhus</h1>
-  </div>
-</header>
+<div class="container-fluid wrapper"> 
+ <!-- Header --> 
 
-  <div class="container-fluid">
+<div class="row">
+      <div class="col-xs-12"> 
+         <header class="bgimage">
+             <h1>Antikmuseet Aarhus</h1>
+         </header>
+      </div>
+</div>
+  
+
+<!-- End of Header -->
+<!-- Navigation --> 
+  
     <div class="row">
-      <div class="col-lg-12"> 
-      		<ul>
-      		   <li><a href="audio.html"><span class="nav_element">Audio</span></a></li>
-      		   <li><a href="index.html"><img class="nav_logo" src="img/logo.jpg" alt="logo"></a></li>
-      		   <li><a href="filters.html"><span class="nav_element">Filters</span></a></li>
-      		</ul>
+      <div class="col-xs-12"> 
+         <ul>
+             <li><a class="btn btn-default btn-lg btn-block active" href="audio.html">Audio</a></li>
+             <li><a href="index.html"><img class="nav_logo" src="img/logo.png" alt="logo"></a></li>
+             <li><a class="btn btn-default btn-lg btn-block" href="filters.php">Filters</a></li>
+         </ul>
       </div>
     </div>
+ 
+
+
+
+<div class="row">
+    
+  <div class="col-xs-12 col-sm-4">
+      <div class="row">
+          <div class="col-xs-12">
+              <div class="jumbotron aphaea_introduction">
+                          <h1>Meet the Athena!</h1>
+                          <p>The goddess of fertility and agriculture.</p>
+                          <h3>Click audio button below and listen to her story!<br><span class="glyphicon glyphicon-hand-down"></span></h3>
+              </div><!-- End of Jumbotron -->
+          </div>
+          <div class="col-xs-10 col-xs-offset-2">
+              <div class="ancient-figure-box">
+                            <img class="aphaea-image img-responsive" src="img/aphaea.jpg" alt="aphaea">
+                  <div class="audio-play">
+                            <audio id="player" src="audio/athena.mp3" type="audio/mp3"></audio>
+                            <a id="play" onClick="play()"><img id="play-button" src="img/play-button.png" alt="play-button" ></a>
+                            <a id="stop" onClick="play()"><img id="pause-button" src="img/pause-button.gif" alt="pause-button" ></a>
+                  </div>         
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+        <div class="col-xs-12 col-sm-8">
+          <div class="story_box">
+            <h3>Here you can read my story.<br><span class="glyphicon glyphicon-hand-down"></span></h3>
+            <p>Hi there, I am Athena, Goddess of war wisdom, daughter of Zeus!There are many stories about me, but this is my favourite:
+
+            <blockquote>Once I was invited to the wedding party of Achille’s parents. All the Gods were there except   Eris, the goddess of discord. Eris was so annoyed that she didn’t get an invitation that she came up with a devious plan. She arrived with a golden apple inscribed with the words "for the fairest" which she threw among the goddesses. Of course, the apple was intended for me, but Aphrodite and Hera disagreed. They thought the apple belonged to them.</blockquote>
+
+            <blockquote>So, we took the matter to my dad, Zeus. However, he didn’t want to favor one of us, so he passed the judgement to Paris, a Trojan prince. Paris had a hard time making decision. To help him make up his mind I offered him wisdom, glory and fame in his glory. But my sister, Aphrodite, won him over by promising him the most beautiful bride in the world- Helen, the wife of the king of Sparta. So, Paris gave the apple to Aphrodite. That is why me and my stepmom, Hera, chose to help Greeks in the Trojan war.</blockquote>
+			  </p>
+          </div>
+        </div>
+
+
+       <div class="hidden-xs col-sm-8">
+          <div class="story_box_2">
+            <h3>Here you can read more about The Museum of Ancient Art<br><span class="glyphicon glyphicon-hand-down"></span></h3>
+            <p>The Museum of Ancient Art contains about 4000 antiquities, one of the most important coin collections in Scandinavia and more than 500 casts. Objects from Greece and Italy constitute the main part of the objects, but the museum also has objects from the Near East and Egypt.</p>
+
+            <p>The Museum of Ancient Art was founded by Professor P. J. Riis in 1949 as a study collection for the Department of Classical Archaeology at the University of Aarhus. The core of the collection was 500 representative finds from the classical cultures of the Mediterranean countries, permanently loaned to the collection by the National Museum in Copenhagen. In addition to this were a number of plaster casts of classical sculptures from the former Aarhus Museum.<p>
+
+            <p>Over the years the collection has grown steadily, and in 1971, on the initiative of Professor Kristian Jeppesen, a new exhibition area was inaugurated under Solgården. Since 1971, the museum has grown dramatically, in part through purchases, gifts and permanent loans. The new physical surroundings and the many new acquisitions have created a museum that is not only suitable as a study collection, but that is also useful to upper secondary school classes, artists and those with a general interest in ancient art.  As a result of this, the collection changed its name to the Museum of Ancient Art in 1986.</p>
+
+           
+          </div>
+        </div>
+
+
+ </div> <!-- End of Row --> 
+
+<div class="row">
+  <div class="col-xs-12">
+    <div id="particles-js">
+          <address>
+          <strong>Address:</strong> <a target="_blank" href="https://www.google.lt/maps/place/Victor+Albecks+Vej+3,+8000+Aarhus+C/@56.1700719,10.1971269,17z/data=!3m1!4b1!4m5!3m4!1s0x464c3fc6dc1ed8bd:0x9341ede49c365d02!8m2!3d56.1700719!4d10.1993156"><i>Victor Albecks Vej 3, 8000 Aarhus, Denmark</i></a><br/>
+          <strong>Phone:</strong> <a href="tel:87 16 11 06"><i>87 16 11 06</i></a><br/>
+          <strong>Email:</strong> <a href="mailto:cas@au.dk"><i>cas@au.dk</i></a>
+          <h5>© Team 3. The Museum of Ancient Art in Aarhus, 2017. All rights reserved.</h5>
+          </address>
+    </div>
   </div>
-
-
-
-<!-- /.wrapper --> 
 </div>
 
-
-
-
-
-
-
+</div><!-- /.wrapper --> 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
 <script src="css/bootstrap/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="js/particles.js"></script>
+ <script>
+$(document).ready(function() {
+        var audioElement = document.getElementById('player');
+        $('#stop').hide();
+
+       $('#play').click(function() {
+        $('#play').hide();
+        $('#stop').show();
+         audioElement.play();
+    });
+
+   $('#stop').click(function() {
+        $('#play').show();
+        $('#stop').hide();
+        audioElement.pause();
+    });
+});
+    </script>
+ 
 </body>
 </html>
+
